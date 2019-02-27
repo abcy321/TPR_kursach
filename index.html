@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>Курсовая Якубец КА-53</title>
+	<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width=device-width;">
+</head>
+	<body>
+		<form action="/cgi-bin/algo.py" id="myform" target="_blank">
+			<div class="row">
+				<div class="column"><div class="left">
+					<table class="table-fill">
+						<thead>
+							<tr>
+								<th class="text-center">C<sub>ik</sub></th>
+								<th class="text-center">1</th>
+								<th class="text-center">2</th>
+								<th class="text-center">3</th>
+								<th class="text-center">4</th>
+							</tr>
+						</thead>
+						<tr>
+							<td class="text-center">1</td>
+							<td> <input type="number" name="C_11" form="myform" value="5000" min="0"></td>
+							<td> <input type="number" name="C_12" form="myform" value="7000" min="0"></td>
+							<td> <input type="number" name="C_13" form="myform" value="20000" min="0"></td>
+							<td> <input type="number" name="C_14" form="myform" value="12000" min="0"></td>
+						</tr>
+						<tr>
+							<td class="text-center">2</td>
+							<td> <input type="number" name="C_21" form="myform" value="9000" min="0"></td>
+							<td> <input type="number" name="C_22" form="myform" value="4000" min="0"></td>
+							<td> <input type="number" name="C_23" form="myform" value="8000" min="0"></td>
+							<td> <input type="number" name="C_24" form="myform" value="10000" min="0"></td>
+						</tr>
+						<tr>
+							<td class="text-center">3</td>
+							<td> <input type="number" name="C_31" form="myform" value="6000" min="0"></td>
+							<td> <input type="number" name="C_32" form="myform" value="8000" min="0"></td>
+							<td> <input type="number" name="C_33" form="myform" value="4000" min="0"></td>
+							<td> <input type="number" name="C_34" form="myform" value="8000" min="0"></td>
+						</tr>
+					</table>
+				</div></div>
+				<div class="column"><div class="right">
+					<table class="table-fill">
+						<thead>
+							<tr>
+								<th class="text-center">L<sub>ik</sub></th>
+								<th class="text-center">1</th>
+								<th class="text-center">2</th>
+								<th class="text-center">3</th>
+								<th class="text-center">4</th>
+							</tr>
+						</thead>
+						<tr>
+							<td class="text-center">1</td>
+							<td> <input type="number" name="L_11" form="myform" value="500" min="0"></td>
+							<td> <input type="number" name="L_12" form="myform" value="1200" min="0"></td>
+							<td> <input type="number" name="L_13" form="myform" value="1000" min="0"></td>
+							<td> <input type="number" name="L_14" form="myform" value="2000" min="0"></td>
+						</tr>
+						<tr>
+							<td class="text-center">2</td>
+							<td> <input type="number" name="L_21" form="myform" value="1750" min="0"></td>
+							<td> <input type="number" name="L_22" form="myform" value="1800" min="0"></td>
+							<td> <input type="number" name="L_23" form="myform" value="1500" min="0"></td>
+							<td> <input type="number" name="L_24" form="myform" value="3300" min="0"></td>
+						</tr>
+						<tr>
+							<td class="text-center">3</td>
+							<td> <input type="number" name="L_31" form="myform" value="2000" min="0"></td>
+							<td> <input type="number" name="L_32" form="myform" value="2500" min="0"></td>
+							<td> <input type="number" name="L_33" form="myform" value="2000" min="0"></td>
+							<td> <input type="number" name="L_34" form="myform" value="4000" min="0"></td>
+						</tr>
+					</table>
+				</div></div>
+			</div>
+
+			<div class="row">
+				<div class="column"><div class="left">
+					<table class="table-fill">
+						<thead>
+							<tr>
+								<th class="text-center">k</th>
+								<th class="text-center">B<sub>k</sub></th>
+								<th class="text-center">R<sub>k</sub></th>
+							</tr>
+						</thead>
+						<tr>
+							<td class="text-center">1</td>
+							<td> <input type="number" name="B_1" form="myform" value="30" min="0"></td>
+							<td> <input type="number" name="R_1" form="myform" value="3000" min="0"></td>
+						</tr>
+						<tr>
+							<td class="text-center">2</td>
+							<td> <input type="number" name="B_2" form="myform" value="20" min="0"></td>
+							<td> <input type="number" name="R_2" form="myform" value="2000" min="0"></td>
+						</tr>
+						<tr>
+							<td class="text-center">3</td>
+							<td> <input type="number" name="B_3" form="myform" value="40" min="0"></td>
+							<td> <input type="number" name="R_3" form="myform" value="7000" min="0"></td>
+						</tr>
+					</table>
+				</div></div>
+				<div class="column"><div class="right">
+					<table class="table-fill">
+						<thead>
+							<tr>
+								<th class="text-center">i</th>
+								<th class="text-center">G<sub>i</sub></th>
+								<th class="text-center">D<sub>i</sub></th>
+								<th class="text-center">C<sub>ip</sub></th>
+								<th class="text-center">S<sub>i</sub></th>
+								<th class="text-center">L<sub>ip</sub></th>
+							</tr>
+						</thead>
+						<tr>
+							<td class="text-center">1</td>
+							<td> <input type="number" name="G_1" form="myform" value="20000" min="0"></td>
+							<td> <input type="number" name="D_1" form="myform" value="40000" min="0"></td>
+							<td> <input type="number" name="C_1" form="myform" value="5000" min="0"></td>
+							<td> <input type="number" name="S_1" form="myform" value="6000" min="0"></td>
+							<td> <input type="number" name="L_1" form="myform" value="2000" min="0"></td>
+						</tr>
+						<tr>
+							<td class="text-center">2</td>
+							<td> <input type="number" name="G_2" form="myform" value="10000" min="0"></td>
+							<td> <input type="number" name="D_2" form="myform" value="30000" min="0"></td>
+							<td> <input type="number" name="C_2" form="myform" value="7000" min="0"></td>
+							<td> <input type="number" name="S_2" form="myform" value="3000" min="0"></td>
+							<td> <input type="number" name="L_2" form="myform" value="1500" min="0"></td>
+						</tr>
+						<tr>
+							<td class="text-center">3</td>
+							<td> <input type="number" name="G_3" form="myform" value="15000" min="0"></td>
+							<td> <input type="number" name="D_3" form="myform" value="25000" min="0"></td>
+							<td> <input type="number" name="C_3" form="myform" value="12000" min="0"></td>
+							<td> <input type="number" name="S_3" form="myform" value="5000" min="0"></td>
+							<td> <input type="number" name="L_3" form="myform" value="2500" min="0"></td>
+						</tr>
+						<tr>
+							<td class="text-center">4</td>
+							<td> <input type="number" name="G_4" form="myform" value="32000" min="0"></td>
+							<td> <input type="number" name="D_4" form="myform" value="40000" min="0"></td>
+							<td> <input type="number" name="C_4" form="myform" value="10000" min="0"></td>
+							<td> <input type="number" name="S_4" form="myform" value="3000" min="0"></td>
+							<td> <input type="number" name="L_4" form="myform" value="1500" min="0"></td>
+						</tr>
+					</table>
+				</div></div>
+			</div>
+
+			<div>
+				<p id="penalty">Penalty<input type="number" name="Pen" form="myform" value="0.01" step="0.000001" align="right" min="0"></p>
+				<input type="submit" name="add"  value="Submit" form="myform"/>
+				<p>C<sub>ik</sub> – витрати на експлуатцію.<br />
+				L<sub>ik</sub> – середня кількість пасажирів, яку може перевезти літак.<br />
+				B<sub>k</sub> – загальне число літаків.<br />
+				R<sub>k</sub> – витрати на простій літака.<br />
+				[G<sub>i</sub>,D<sub>i</sub>] – відрізок на якому розподілена місячна потреба в перевезеннях.<br />
+				C<sub>ip</sub> – витрати на простій.<br />
+				S<sub>i</sub> – додаткові витрати на організацію додаткових літаків.<br />
+				L<sub>ip</sub> – звичайні експлуатаційні витрати.
+				</p>
+			</div>
+			
+		</form>
+	</body>
+</html>
